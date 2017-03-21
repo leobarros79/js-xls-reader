@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<script src="xlsx.core.min.js"></script>
+		<script src="file.js"></script>
+	</head>
+	<body>
+		
+		<input id="xlf" type="file" name="xlfile" />
+		<pre id="out"></pre>
+		<script type="text/javascript">
+			var xlf = document.getElementById('xlf');
+
+			if(xlf.addEventListener) xlf.addEventListener('change', handleFile, false);
+		</script>
+	</body>	
+</html>
+
