@@ -1,4 +1,4 @@
-# XLS Javascript Lib Reader
+# Excel XLS Javascript Lib Reader
 
 This project demonstrates how to read an Excel file in JavaScript. You can adapt it to the most diverse business needs, for example, capturing the value of an Excel cell to fill a field on the screen.
 
